@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about {
+    font-weight: lighter;
+}
+
+.header {
+    text-align: center;
+    font-size: smaller;
+    background-color: rgb(54, 62, 88);
+    color: white;
+    padding-top: .5px;
+    padding-bottom: .5px;
+}
+
+#title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+
+#about {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+form {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #fbfcfc;
+    border-radius: 8px;
+}
+
+#news {
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+#newsletter {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 12px;
+  width: 92%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc99f;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 96%;
+    border: 1px solid #3ac1af;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
