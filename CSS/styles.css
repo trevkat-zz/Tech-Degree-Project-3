@@ -1,9 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 #about {
     font-weight: lighter;
+    padding-bottom: 2em;
+    border-bottom: 4px solid #2d3945;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 2.5px;
 }
 
 .header {
@@ -19,22 +29,18 @@ body {
     text-align: center;
     font-weight: normal;
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-bottom: 0px;
 }
 
-#about {
-    text-align: center;
-    margin-top: 10px;
-    color: rgb(97, 97, 97);
-    margin-bottom: 30px;
-}
-
 #contact {
-    padding-top: 30px;
+    border-top: 1.5px solid #2d3945;
+    width: 100%;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-weight: normal;
     font-size: 18px;
+    margin-top: auto;
 }
 
 form {
@@ -45,7 +51,7 @@ form {
     border-radius: 8px;
 }
 
-#news {
+.news {
     font-weight: lighter;
     margin-bottom: 8px;
 }
@@ -55,13 +61,15 @@ form {
     padding-bottom: 5px;
     font-weight: normal;
     font-size: 18px;
+    border-top: 1.5px solid #2d3945;
+    width: 100%;
 }
-
 
 input[type="text"],
 input[type="email"],
 textarea,
 select {
+  display: flex;
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
@@ -69,7 +77,7 @@ select {
   margin: 0;
   outline: 0;
   padding: 12px;
-  width: 92%;
+  width: 100%;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
@@ -84,9 +92,21 @@ button {
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    width: 96%;
+    width: 100%;
     border: 1px solid #3ac1af;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     margin-bottom: 10px;
   }
+
+  .footer {
+    color: #a5a5a5;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media (min-width: 768px){
+
+}
